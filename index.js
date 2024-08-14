@@ -1,8 +1,10 @@
 const btnEl = document.getElementById("btn")
 
-
-function getQuote(){
-    
+const apiURL = "https://api.qutable.io/random";
+ async function getQuote(){
+    const response = await fetch(apiURL);
+    const data = await response.json();
+    console.log(data);
 }
 
 
