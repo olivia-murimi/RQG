@@ -15,7 +15,9 @@ const apiURL = "https://api.quotable.io/random";
         authorEl.innerText = "~ " + quoteAuthor;
         console.log(data);
     }catch (error){
-        
+       console.log(error);
+       quoteEl.innerText = "An error happened try again later"; 
+       quoteEl.innerText = "An error happened"; 
     }
     
 
