@@ -9,6 +9,8 @@ const apiURL = "https://api.quotable.io/random";
     try{
         btnEl.innerText = "loading...";
         btnEl.disabled = true;
+        quoteEl.innerText = "Updating...";
+        quoteEl.innerText = "Updating...";
         const response = await fetch(apiURL);
         const data = await response.json();
         const quoteContent = data.content;
