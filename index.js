@@ -26,12 +26,8 @@ const apiURL = "https://api.quotable.io/random";
        quoteEl.innerText = "An error happened";
         btnEl.disabled = false;
     }
-    
-
 }
 
-
-
-
+getQuote()
 
 btnEl.addEventListener("click",getQuote)
