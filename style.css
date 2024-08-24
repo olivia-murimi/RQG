@@ -5,7 +5,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: Agbalumo, sans-serif;
-    background:#1a5276 ;
+    background:#096fae ;
 }
 
 .container{
@@ -15,6 +15,8 @@ body{
     width: 90%;
     margin: 10px;
     text-align: center;
+    background-color:black;
+    color: aliceblue;
 }
 .heading{
     font-size: 35px;
